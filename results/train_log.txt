@@ -1,0 +1,145 @@
+Device: cuda
+{'train': 18997, 'val': 2375, 'test': 2375}
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights:  43%|████▎     | 43/100 [00:00<00:00, 406.15it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 924.86it/s]
+[transformers] [1mDistilBertModel LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     |  | 
+------------------------+------------+--+-
+vocab_projector.bias    | UNEXPECTED |  | 
+vocab_transform.bias    | UNEXPECTED |  | 
+vocab_transform.weight  | UNEXPECTED |  | 
+vocab_layer_norm.bias   | UNEXPECTED |  | 
+vocab_layer_norm.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  scheduler.step()
+  epoch 1 step 100/1188 loss 4.6878
+  epoch 1 step 200/1188 loss 4.3833
+  epoch 1 step 300/1188 loss 4.1401
+  epoch 1 step 400/1188 loss 3.9865
+  epoch 1 step 500/1188 loss 3.8708
+  epoch 1 step 600/1188 loss 3.7996
+  epoch 1 step 700/1188 loss 3.7314
+  epoch 1 step 800/1188 loss 3.6829
+  epoch 1 step 900/1188 loss 3.6426
+  epoch 1 step 1000/1188 loss 3.6046
+  epoch 1 step 1100/1188 loss 3.5680
+Epoch 1: queue_acc=0.4206, queue_f1=0.3305, priority_acc=0.4783, priority_f1=0.3955, type_acc=0.8008, type_f1=0.8033, mean_f1=0.5098, train_loss=3.5448, minutes=2.5388
+  ✓ saved best model (mean macro-F1 0.5098)
+  epoch 2 step 100/1188 loss 3.0520
+  epoch 2 step 200/1188 loss 3.0478
+  epoch 2 step 300/1188 loss 3.0256
+  epoch 2 step 400/1188 loss 3.0248
+  epoch 2 step 500/1188 loss 3.0138
+  epoch 2 step 600/1188 loss 3.0064
+  epoch 2 step 700/1188 loss 3.0005
+  epoch 2 step 800/1188 loss 2.9989
+  epoch 2 step 900/1188 loss 2.9924
+  epoch 2 step 1000/1188 loss 2.9853
+  epoch 2 step 1100/1188 loss 2.9771
+Epoch 2: queue_acc=0.4379, queue_f1=0.3900, priority_acc=0.5436, priority_f1=0.5154, type_acc=0.8223, type_f1=0.8170, mean_f1=0.5742, train_loss=2.9685, minutes=2.6123
+  ✓ saved best model (mean macro-F1 0.5742)
+  epoch 3 step 100/1188 loss 2.5118
+  epoch 3 step 200/1188 loss 2.4684
+  epoch 3 step 300/1188 loss 2.4604
+  epoch 3 step 400/1188 loss 2.4659
+  epoch 3 step 500/1188 loss 2.4770
+  epoch 3 step 600/1188 loss 2.4673
+  epoch 3 step 700/1188 loss 2.4600
+  epoch 3 step 800/1188 loss 2.4544
+  epoch 3 step 900/1188 loss 2.4504
+  epoch 3 step 1000/1188 loss 2.4387
+  epoch 3 step 1100/1188 loss 2.4338
+Epoch 3: queue_acc=0.4846, queue_f1=0.4707, priority_acc=0.5394, priority_f1=0.5305, type_acc=0.8333, type_f1=0.8444, mean_f1=0.6152, train_loss=2.4269, minutes=2.6592
+  ✓ saved best model (mean macro-F1 0.6152)
+  epoch 4 step 100/1188 loss 1.8348
+  epoch 4 step 200/1188 loss 1.8800
+  epoch 4 step 300/1188 loss 1.8569
+  epoch 4 step 400/1188 loss 1.8408
+  epoch 4 step 500/1188 loss 1.8354
+  epoch 4 step 600/1188 loss 1.8227
+  epoch 4 step 700/1188 loss 1.8211
+  epoch 4 step 800/1188 loss 1.8265
+  epoch 4 step 900/1188 loss 1.8172
+  epoch 4 step 1000/1188 loss 1.8104
+  epoch 4 step 1100/1188 loss 1.8024
+Epoch 4: queue_acc=0.5469, queue_f1=0.5665, priority_acc=0.6434, priority_f1=0.6236, type_acc=0.8657, type_f1=0.8557, mean_f1=0.6819, train_loss=1.7994, minutes=2.6843
+  ✓ saved best model (mean macro-F1 0.6819)
+  epoch 5 step 100/1188 loss 1.2265
+  epoch 5 step 200/1188 loss 1.2347
+  epoch 5 step 300/1188 loss 1.2299
+  epoch 5 step 400/1188 loss 1.2422
+  epoch 5 step 500/1188 loss 1.2395
+  epoch 5 step 600/1188 loss 1.2348
+  epoch 5 step 700/1188 loss 1.2408
+  epoch 5 step 800/1188 loss 1.2392
+  epoch 5 step 900/1188 loss 1.2361
+  epoch 5 step 1000/1188 loss 1.2274
+  epoch 5 step 1100/1188 loss 1.2308
+Epoch 5: queue_acc=0.5979, queue_f1=0.6163, priority_acc=0.6792, priority_f1=0.6658, type_acc=0.8686, type_f1=0.8713, mean_f1=0.7178, train_loss=1.2283, minutes=2.3235
+  ✓ saved best model (mean macro-F1 0.7178)
+  epoch 6 step 100/1188 loss 0.7982
+  epoch 6 step 200/1188 loss 0.7885
+  epoch 6 step 300/1188 loss 0.7937
+  epoch 6 step 400/1188 loss 0.8003
+  epoch 6 step 500/1188 loss 0.8036
+  epoch 6 step 600/1188 loss 0.8088
+  epoch 6 step 700/1188 loss 0.8045
+  epoch 6 step 800/1188 loss 0.8038
+  epoch 6 step 900/1188 loss 0.8081
+  epoch 6 step 1000/1188 loss 0.8050
+  epoch 6 step 1100/1188 loss 0.8024
+Epoch 6: queue_acc=0.6358, queue_f1=0.6532, priority_acc=0.7023, priority_f1=0.6900, type_acc=0.8817, type_f1=0.8851, mean_f1=0.7428, train_loss=0.8006, minutes=2.8932
+  ✓ saved best model (mean macro-F1 0.7428)
+  epoch 7 step 100/1188 loss 0.5089
+  epoch 7 step 200/1188 loss 0.5273
+  epoch 7 step 300/1188 loss 0.5206
+  epoch 7 step 400/1188 loss 0.5181
+  epoch 7 step 500/1188 loss 0.5115
+  epoch 7 step 600/1188 loss 0.5123
+  epoch 7 step 700/1188 loss 0.5180
+  epoch 7 step 800/1188 loss 0.5172
+  epoch 7 step 900/1188 loss 0.5165
+  epoch 7 step 1000/1188 loss 0.5128
+  epoch 7 step 1100/1188 loss 0.5136
+Epoch 7: queue_acc=0.6472, queue_f1=0.6541, priority_acc=0.7187, priority_f1=0.7074, type_acc=0.8808, type_f1=0.8891, mean_f1=0.7502, train_loss=0.5094, minutes=4.1480
+  ✓ saved best model (mean macro-F1 0.7502)
+  epoch 8 step 100/1188 loss 0.3064
+  epoch 8 step 200/1188 loss 0.3260
+  epoch 8 step 300/1188 loss 0.3261
+  epoch 8 step 400/1188 loss 0.3316
+  epoch 8 step 500/1188 loss 0.3243
+  epoch 8 step 600/1188 loss 0.3236
+  epoch 8 step 700/1188 loss 0.3229
+  epoch 8 step 800/1188 loss 0.3231
+  epoch 8 step 900/1188 loss 0.3220
+  epoch 8 step 1000/1188 loss 0.3243
+  epoch 8 step 1100/1188 loss 0.3218
+Epoch 8: queue_acc=0.6531, queue_f1=0.6640, priority_acc=0.7280, priority_f1=0.7142, type_acc=0.8855, type_f1=0.8893, mean_f1=0.7558, train_loss=0.3222, minutes=3.1815
+  ✓ saved best model (mean macro-F1 0.7558)
+  epoch 9 step 100/1188 loss 0.1992
+  epoch 9 step 200/1188 loss 0.1970
+  epoch 9 step 300/1188 loss 0.1963
+  epoch 9 step 400/1188 loss 0.1946
+  epoch 9 step 500/1188 loss 0.1955
+  epoch 9 step 600/1188 loss 0.1940
+  epoch 9 step 700/1188 loss 0.1978
+  epoch 9 step 800/1188 loss 0.1950
+  epoch 9 step 900/1188 loss 0.1950
+  epoch 9 step 1000/1188 loss 0.1965
+  epoch 9 step 1100/1188 loss 0.1959
+Epoch 9: queue_acc=0.6691, queue_f1=0.6734, priority_acc=0.7415, priority_f1=0.7269, type_acc=0.8905, type_f1=0.8913, mean_f1=0.7639, train_loss=0.1941, minutes=2.4415
+  ✓ saved best model (mean macro-F1 0.7639)
+  epoch 10 step 100/1188 loss 0.1327
+  epoch 10 step 200/1188 loss 0.1335
+  epoch 10 step 300/1188 loss 0.1337
+  epoch 10 step 400/1188 loss 0.1337
+  epoch 10 step 500/1188 loss 0.1302
+  epoch 10 step 600/1188 loss 0.1311
+  epoch 10 step 700/1188 loss 0.1302
+  epoch 10 step 800/1188 loss 0.1277
+  epoch 10 step 900/1188 loss 0.1289
+  epoch 10 step 1000/1188 loss 0.1289
+  epoch 10 step 1100/1188 loss 0.1292
+Epoch 10: queue_acc=0.6728, queue_f1=0.6786, priority_acc=0.7394, priority_f1=0.7260, type_acc=0.8935, type_f1=0.8962, mean_f1=0.7670, train_loss=0.1285, minutes=3.1589
+  ✓ saved best model (mean macro-F1 0.7670)

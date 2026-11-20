@@ -1,0 +1,10 @@
+# Install PyTorch first for GPU support, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126
+torch>=2.4
+transformers>=4.45
+datasets
+scikit-learn
+pandas
+matplotlib
+gradio>=5.0
+pytest

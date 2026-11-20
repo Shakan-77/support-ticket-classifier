@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.gradio/
+.hf_cache/
+.tmp/
+outputs/
+# Trained weights are ~260 MB, too big for git. Recreate with `python train.py`.
+models/
